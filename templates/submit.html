@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+  <div class="container">
+    <!-- For demo purpose -->
+    <div class="row mb-5 text-center text-white">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);""><b>Leaf Disease Prediction🍂</b></h1>
+      </div>
+    </div>
+    <center>
+    <div class=" col">
+          <div class="p-3 bg-white shadow rounded-lg" style="width: 30%;">
+
+           <h1>Prediction:{{pred}} </h1>
+           <h2>Confidence: {{confidence}}</h2>
+
+          </div>
+      </div>
+      </center>
+      <br>
+      <div class=" row ">
+        <div class="col mx-auto">
+          <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+
+           
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+{% endblock  %}
